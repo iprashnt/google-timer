@@ -1,0 +1,14 @@
+.textInput {
+  outline: none;
+  border: none;
+  font-size: 6rem;
+  font-weight: bold;
+  width: 4rem;
+}
+
+.indicator {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: -0.5rem;
+  margin-right: 1.4rem;
+}
