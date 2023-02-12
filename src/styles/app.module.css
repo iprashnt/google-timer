@@ -1,14 +1,50 @@
 .textInput {
   outline: none;
   border: none;
-  font-size: 6rem;
+  font-size: 12rem;
   font-weight: bold;
-  width: 4rem;
+  width: 10rem;
+  color: black;
+}
+
+.singleDigit {
+  width: 8rem;
+}
+
+.doubleDigit {
+  width: 14rem;
 }
 
 .indicator {
   font-weight: bold;
   font-size: 2rem;
+  margin-bottom: -6rem;
   margin-left: -0.5rem;
   margin-right: 1.4rem;
+}
+
+.appLayout {
+  width: 100vw;
+  height: 100vh;
+}
+
+.inputContainer {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconButton {
+  margin-right: 1rem;
+}
+
+.buttonContainer {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1rem;
 }

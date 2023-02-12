@@ -1,12 +1,8 @@
 import React from "react";
-import { Stack } from "react-bootstrap";
+import * as style from "../styles/app.module.css";
 
 const ButtonContainer = ({ children }) => {
-  return (
-    <Stack direction="horizontal" gap={3}>
-      {children}
-    </Stack>
-  );
+  return <div className={style.buttonContainer}>{children}</div>;
 };
 
 export default ButtonContainer;
